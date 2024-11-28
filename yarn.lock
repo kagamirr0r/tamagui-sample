@@ -7820,6 +7820,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"axios@npm:^1.7.8":
+  version: 1.7.8
+  resolution: "axios@npm:1.7.8"
+  dependencies:
+    follow-redirects: "npm:^1.15.6"
+    form-data: "npm:^4.0.0"
+    proxy-from-env: "npm:^1.1.0"
+  checksum: 10/7ddcde188041ac55090186254b4025eb2af842be3cf615ce45393fd7f543c1eab0ad2fdd2017a5f6190695e3ecea73ee5e9c37f204854aec2698f9579046efdf
+  languageName: node
+  linkType: hard
+
 "axobject-query@npm:^4.1.0":
   version: 4.1.0
   resolution: "axobject-query@npm:4.1.0"
@@ -10936,11 +10947,12 @@ __metadata:
     "@my/ui": "npm:0.0.1"
     "@tamagui/babel-plugin": "npm:1.117.1"
     app: "npm:0.0.0"
+    axios: "npm:^1.7.8"
     babel-plugin-module-resolver: "npm:^5.0.2"
     burnt: "npm:^0.12.2"
     expo: "npm:^51.0.9"
     expo-constants: "npm:~16.0.2"
-    expo-dev-client: "npm:~4.0.15"
+    expo-dev-client: "npm:~4.0.29"
     expo-font: "npm:~12.0.6"
     expo-linear-gradient: "npm:~13.0.2"
     expo-linking: "npm:~6.3.1"
@@ -10986,54 +10998,54 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-dev-client@npm:~4.0.15":
-  version: 4.0.27
-  resolution: "expo-dev-client@npm:4.0.27"
+"expo-dev-client@npm:~4.0.29":
+  version: 4.0.29
+  resolution: "expo-dev-client@npm:4.0.29"
   dependencies:
-    expo-dev-launcher: "npm:4.0.27"
-    expo-dev-menu: "npm:5.0.21"
-    expo-dev-menu-interface: "npm:1.8.3"
+    expo-dev-launcher: "npm:4.0.29"
+    expo-dev-menu: "npm:5.0.23"
+    expo-dev-menu-interface: "npm:1.8.4"
     expo-manifests: "npm:~0.14.0"
     expo-updates-interface: "npm:~0.16.2"
   peerDependencies:
     expo: "*"
-  checksum: 10/f9a3ace88584d12d2e89e1313b3058d6ce036752830b41a1f848f5094c5e2631d321e5c7556f84edbffac724eb8d5bf947711cbbf8d46a2969cd0f9cdbf36aef
+  checksum: 10/015dd84168e33521446857b4dd428daa1cea3b12ba773d6f56e2d699d462fedf746092057c3c4c71c51b26d28adc8d7a0f5ad09b10c20d767bc9ae33bc0d970d
   languageName: node
   linkType: hard
 
-"expo-dev-launcher@npm:4.0.27":
-  version: 4.0.27
-  resolution: "expo-dev-launcher@npm:4.0.27"
+"expo-dev-launcher@npm:4.0.29":
+  version: 4.0.29
+  resolution: "expo-dev-launcher@npm:4.0.29"
   dependencies:
     ajv: "npm:8.11.0"
-    expo-dev-menu: "npm:5.0.21"
+    expo-dev-menu: "npm:5.0.23"
     expo-manifests: "npm:~0.14.0"
     resolve-from: "npm:^5.0.0"
     semver: "npm:^7.6.0"
   peerDependencies:
     expo: "*"
-  checksum: 10/b8f46c8237f364ccb60587ae6e9a12a5fa2c13de0a4595d7b5306435096844c719e4f93c1a12b1ca462cc80eebcd76502f725b8d034d2432b8163f187972cc1b
+  checksum: 10/6ed78fb211109b36b5e1f888d367b2a24256357e908b26afabeab127a32231faab2402ddd3939a1d25e9b3f651ce51d93a442b5ae49afddc9a0d840d3ac288d3
   languageName: node
   linkType: hard
 
-"expo-dev-menu-interface@npm:1.8.3":
-  version: 1.8.3
-  resolution: "expo-dev-menu-interface@npm:1.8.3"
+"expo-dev-menu-interface@npm:1.8.4":
+  version: 1.8.4
+  resolution: "expo-dev-menu-interface@npm:1.8.4"
   peerDependencies:
     expo: "*"
-  checksum: 10/c63b7a1c2e7591085527a7944f3a9eaf6fc77d845400c5d064518ef06904ab193b77020e5fe029ff2897e359a07217ff81b7074cbfd1435780cf0a0b5bc8cf17
+  checksum: 10/205e2470435a3ca9f59e35c2b982123675b9c0c5480ecb6eaf36931742ea6a91e359e3ad5cee81e3d14710b209afcbbff5525ae0c328d5a98c63af91fa81a753
   languageName: node
   linkType: hard
 
-"expo-dev-menu@npm:5.0.21":
-  version: 5.0.21
-  resolution: "expo-dev-menu@npm:5.0.21"
+"expo-dev-menu@npm:5.0.23":
+  version: 5.0.23
+  resolution: "expo-dev-menu@npm:5.0.23"
   dependencies:
-    expo-dev-menu-interface: "npm:1.8.3"
+    expo-dev-menu-interface: "npm:1.8.4"
     semver: "npm:^7.5.4"
   peerDependencies:
     expo: "*"
-  checksum: 10/209556a2cde1263288dbb6b6b86060ff9e70cc4c89234cec6d5fcbe192a90653608deb3fb4a3df2c80a86a9ac03706b6a608caaebba5cbeda30be8c56ad00001
+  checksum: 10/0d4910905a37144a2ee4b3f21588870257020c4895c39798a65721ccfccd0451ccb32a78eae5cc003150b9dd996f5c7c9d78890bd5d4fad007902858bae351a1
   languageName: node
   linkType: hard
 
@@ -11650,7 +11662,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"follow-redirects@npm:^1.0.0":
+"follow-redirects@npm:^1.0.0, follow-redirects@npm:^1.15.6":
   version: 1.15.9
   resolution: "follow-redirects@npm:1.15.9"
   peerDependenciesMeta:
@@ -11694,6 +11706,17 @@ __metadata:
     combined-stream: "npm:^1.0.8"
     mime-types: "npm:^2.1.12"
   checksum: 10/944b40ff63b9cb1ca7a97e70f72104c548e0b0263e3e817e49919015a0d687453086259b93005389896dbffd3777cccea2e67c51f4e827590e5979b14ff91bf7
+  languageName: node
+  linkType: hard
+
+"form-data@npm:^4.0.0":
+  version: 4.0.1
+  resolution: "form-data@npm:4.0.1"
+  dependencies:
+    asynckit: "npm:^0.4.0"
+    combined-stream: "npm:^1.0.8"
+    mime-types: "npm:^2.1.12"
+  checksum: 10/6adb1cff557328bc6eb8a68da205f9ae44ab0e88d4d9237aaf91eed591ffc64f77411efb9016af7d87f23d0a038c45a788aa1c6634e51175c4efa36c2bc53774
   languageName: node
   linkType: hard
 
@@ -16366,6 +16389,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"proxy-from-env@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "proxy-from-env@npm:1.1.0"
+  checksum: 10/f0bb4a87cfd18f77bc2fba23ae49c3b378fb35143af16cc478171c623eebe181678f09439707ad80081d340d1593cd54a33a0113f3ccb3f4bc9451488780ee23
+  languageName: node
+  linkType: hard
+
 "pump@npm:^3.0.0":
   version: 3.0.2
   resolution: "pump@npm:3.0.2"
@@ -18431,6 +18461,7 @@ __metadata:
     "@babel/runtime": "npm:^7.24.6"
     "@biomejs/biome": "npm:^1.9.3"
     "@tamagui/cli": "npm:^1.117.2"
+    axios: "npm:^1.7.8"
     check-dependency-version-consistency: "npm:^4.1.0"
     eslint: "npm:^9.3.0"
     husky: "npm:^9.1.6"

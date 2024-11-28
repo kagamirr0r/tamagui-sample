@@ -20,8 +20,11 @@ export function HomeScreen({ pagesMode = false }: { pagesMode?: boolean }) {
   const linkTarget = pagesMode ? '/pages-example-user' : '/user'
 
   // ちょっと変
-  const linkProps = useLink({
-    href: `${linkTarget}/kagami`,
+  const userLinkProps = useLink({
+    href: `${linkTarget}/nate`,
+  })
+  const weatherLinkProps = useLink({
+    href: `/weathers`,
   })
 
   return (
@@ -55,7 +58,7 @@ export function HomeScreen({ pagesMode = false }: { pagesMode?: boolean }) {
           ta="center"
           col="$color12"
         >
-          Welcome to.
+          Welcome to Tamagui.
         </H1>
         <Paragraph
           col="$color10"
@@ -70,7 +73,8 @@ export function HomeScreen({ pagesMode = false }: { pagesMode?: boolean }) {
         <Separator />
       </YStack>
 
-      <Button {...linkProps}>Link to user</Button>
+      <Button {...userLinkProps}>Link to user</Button>
+      <Button {...weatherLinkProps}>Link to weather</Button>
 
       <SheetDemo />
     </YStack>

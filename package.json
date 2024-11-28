@@ -7,6 +7,7 @@
   ],
   "scripts": {
     "native": "cd apps/expo && yarn start",
+    "ios": "cd apps/expo && yarn ios",
     "watch": "yarn workspaces foreach -pi run watch",
     "vercel:install": "yarn set version 3.5 && yarn install",
     "web": "yarn build && cd apps/next && yarn next",
@@ -32,6 +33,7 @@
   "dependencies": {
     "@babel/runtime": "^7.24.6",
     "@tamagui/cli": "^1.117.2",
+    "axios": "^1.7.8",
     "check-dependency-version-consistency": "^4.1.0",
     "eslint": "^9.3.0",
     "husky": "^9.1.6",
